@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/tahe-ahmed/trust-construction-maintenance/issues"
   },
-  "homepage": "https://github.com/tahe-ahmed/trust-construction-maintenance#readme"
+  "homepage": "https://github.com/tahe-ahmed/trust-construction-maintenance#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
