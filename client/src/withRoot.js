@@ -13,6 +13,13 @@ export default function withRoot(Component) {
       </ThemeProvider>
     );
   }
+  primary: {
+    light: '#F2E9E4',
+    silver: '#C9ADA7',
+    gray: '#9A8C98',
+    lightdark: '#4A4E69',
+    dark:"#22223B"
+  },
 
   return WithRoot;
 }

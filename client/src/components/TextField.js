@@ -14,7 +14,7 @@ const styles = (theme) => ({
   },
   input: {
     minWidth: theme.spacing(6),
-    backgroundColor: theme.palette.common.white,
+    backgroundColor: theme.palette.primary.light,
     '&$disabled': {
       backgroundColor: theme.palette.divider,
     },
@@ -22,7 +22,7 @@ const styles = (theme) => ({
   inputBorder: {
     border: '1px solid #e9ddd0',
     '&:focus': {
-      borderColor: theme.palette.secondary.main,
+      borderColor: theme.palette.primary.light,
     },
   },
   disabled: {},
