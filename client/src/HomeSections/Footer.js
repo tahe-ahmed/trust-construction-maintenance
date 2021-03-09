@@ -114,30 +114,36 @@ const Footer = (props) => {
               spacing={2}
             >
               <Grid item className={classes.icons}>
-                <a href="/" className={classes.icon}>
+                <Link
+                  href="https://m.facebook.com/trust.bouw"
+                  target="_blank"
+                  className={classes.icon}
+                >
                   <FacebookIcon
                     fontSize="large"
                     className={classes.iconFacebook}
                   />
-                </a>
-                <a
-                  href="https://twitter.com/"
+                </Link>
+                <Link
+                  href="https://mobile.twitter.com/bouwtrust"
+                  target="_blank"
                   className={classes.icon}
                 >
                   <TwitterIcon
                     fontSize="large"
                     className={classes.iconTwitter}
                   />
-                </a>
-                <a
-                  href="https://twitter.com/"
+                </Link>
+                <Link
+                  href="https://www.instagram.com/trustbouwonderhoud3/"
+                  target="_blank"
                   className={classes.icon}
                 >
                   <InstagramIcon
                     fontSize="large"
                     className={classes.iconInsta}
                   />
-                </a>
+                </Link>
               </Grid>
               <Grid item>
                 <Copyright />

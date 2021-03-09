@@ -16,8 +16,8 @@ const useStyles = makeStyles((theme) => ({
     padding: "4rem 0rem 3rem 0rem",
     maxWidth: "100%",
 
-    display: "flex",
-    flexDirection: "column",
+    // display: "flex",
+    // flexDirection: "column",
     alignItems: "center",
     color: theme.palette.primary.light,
     "justify-content": "space-around",
@@ -92,6 +92,10 @@ const useStyles = makeStyles((theme) => ({
     mainTitle: {
       fontSize: "25px",
     },
+    itemsContainer:{
+      padding: "0rem 0rem 0rem 0rem",
+
+    }
   },
 }));
 
@@ -113,9 +117,9 @@ function ContactUs(props) {
           url: "https://wa.me/31684994450",
         },
         {
-          title: "Sportlaan 294. 1185TL amstelveen",
+          title: "Jungfrau 48, 1186CR Amstelveen",
           svg: LocationIcon,
-          url: "https://goo.gl/maps/jQqTnZ7teLMqsD7g6",
+          url: "https://goo.gl/maps/YBXHZKP3WD8n5rkf9",
         },
       ],
     },
@@ -134,9 +138,10 @@ function ContactUs(props) {
           url: "https://wa.me/31684994450",
         },
         {
-          title: "Sportlaan 294. 1185TL amstelveen",
+          title: "Jungfrau 48, 1186CR Amstelveen",
           svg: LocationIcon,
-          url: "https://goo.gl/maps/jQqTnZ7teLMqsD7g6",
+          url: "https://goo.gl/maps/YBXHZKP3WD8n5rkf9",
+          
         },
       ],
     },
@@ -179,7 +184,7 @@ function ContactUs(props) {
           </ul>
 
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.3772937836266!2d4.854728715507628!3d52.291006160927225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c60a9d09c99c8f%3A0x5b86e8d97e70428f!2sSportlaan%20294%2C%201185%20TL%20Amstelveen!5e0!3m2!1sen!2snl!4v1613228938967!5m2!1sen!2snl"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2440.312815317713!2d4.867349815497073!3d52.29217656084088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c60a9016f39299%3A0x715023110e803e1a!2sJungfrau%2048%2C%201186%20CR%20Amstelveen!5e0!3m2!1sen!2snl!4v1615313176693!5m2!1sen!2snl"
             frameborder="0"
             allowfullscreen=""
             aria-hidden="false"
