@@ -112,9 +112,9 @@ function ContactUs(props) {
           url: "mailto:Trustbouw@gmail.com",
         },
         {
-          title: "+31 6 84994450",
+          title: "+31 6 40688773",
           svg: WhatsappIcon,
-          url: "https://wa.me/31684994450",
+          url: "https://wa.me/31640688773",
         },
         {
           title: "Jungfrau 48, 1186CR Amstelveen",
@@ -133,9 +133,9 @@ function ContactUs(props) {
           url: "mailto:Trustbouw@gmail.com",
         },
         {
-          title: "+31 6 84994450",
+          title: "+31 6 40688773",
           svg: WhatsappIcon,
-          url: "https://wa.me/31684994450",
+          url: "https://wa.me/31640688773",
         },
         {
           title: "Jungfrau 48, 1186CR Amstelveen",
